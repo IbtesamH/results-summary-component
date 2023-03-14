@@ -1,0 +1,17 @@
+.button {
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    border: none;
+    background-color: $dark-gray-blue;
+    color: $white;
+    letter-spacing: 2px;
+    font-weight: $ff-bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: $light-royal-blue;
+}

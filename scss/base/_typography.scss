@@ -1,0 +1,63 @@
+// --------------Typography ---------------//
+
+// font size
+$fs-small: 14px;
+$fs-normal: 16px;
+$fs-large: 1.3em;
+$fs-larger: 3em;
+
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+$font: 'Hanken Grotesk', sans-serif;
+
+// font weight
+$ff-normal: 500;
+$ff-bold: 700;
+$ff-bolder: 800;
+
+body {
+    color: $light-lavender;
+    font-size: $fs-normal;
+    font-family: $font;
+}
+
+.bolder {
+    font-weight: $ff-bolder;
+}
+
+.bold {
+    font-weight: $ff-bold;
+}
+
+.larger {
+    font-size: $fs-larger;
+}
+
+.large {
+    font-size: $fs-large;
+}
+
+.white {
+    color: $white;
+}
+
+.dark {
+    color: $dark-gray-blue;
+}
+
+.red {
+    color: $light-red;
+}
+
+.yellow {
+    color: $orange-yellow;
+}
+
+.green {
+    color: $green-teal;
+}
+
+.blue {
+    color: $cobalt-blue;
+}

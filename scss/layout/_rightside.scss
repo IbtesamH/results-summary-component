@@ -1,0 +1,47 @@
+.right-side {
+    width: 50%;
+}
+
+.summary-container {
+    width: 80%;
+    margin: auto;
+}
+
+#summary-title {
+    margin: 1em 0;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.category-title {
+    display: flex;
+    gap: 10px;
+}
+
+.score {
+    color: $gray;
+}
+
+
+.reaction {
+    background: rgba($color: $light-red, $alpha: .1);
+}
+
+.memory {
+    background: rgba($color: $orange-yellow, $alpha: .1);
+}
+
+.verbal {
+    background: rgba($color: $green-teal, $alpha: .1);
+}
+
+.visual {
+    background: rgba($color: $cobalt-blue, $alpha: .1);
+}
+

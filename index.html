@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main-container">
+  <div class="left-side">
+    <div class="result-container">
+      <h2 id="result-title" class="title">Your Result</h2>
+      <div id="result-score">
+        <p id="score"><span class="bolder larger white">76</span>
+          of 100</p>
+      </div>
+      <p class="bold large white">Great</p>
+      <p id="message">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+  </div>
+
+  <div class="right-side">
+    <div class="summary-container">
+      <h2 id="summary-title" class="title dark">Summary</h2>
+      
+      <div class="category reaction">
+        <div class="category-title">
+          <img src="assets/images/icon-reaction.svg">
+          <p class="red">Reaction</p>
+        </div>
+        <p class="score"><span class="bold dark">80</span> / 100</p>
+      </div>
+
+      <div class="category memory">
+        <div class="category-title">
+          <img src="assets/images/icon-memory.svg">
+          <p class="yellow">Memory</p>
+        </div>
+        <p class="score"><span class="bold dark">92</span> / 100</p>
+      </div>
+
+      <div class="category verbal">
+        <div class="category-title">
+          <img src="assets/images/icon-verbal.svg">
+          <p class="green">Verbal</p>
+        </div>
+        <p class="score"><span class="bold dark">61</span> / 100</p>
+      </div>
+
+      <div class="category visual">
+        <div class="category-title">
+          <img src="assets/images/icon-visual.svg">
+          <p class="blue">Visual</p>
+        </div>
+        <p class="score"><span class="bold dark">72</span> / 100</p>
+      </div>
+
+      <button class="button" type="button">Continue</button>
+    </div>
+  </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ibtesam Hussain</a>.
+  </div>
+</body>
+</html>

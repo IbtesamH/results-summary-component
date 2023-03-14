@@ -1,0 +1,29 @@
+@media only screen and (max-width: $tablet) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width: $mobile) {
+    .main-container {
+        width: 100%;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .left-side {
+        height: 40%;
+        width: 100%;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    #summary-title {
+        font-size:  $fs-small;
+    }
+}
